@@ -125,3 +125,13 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'alicaninfoapp@gmail.com'
+EMAIL_HOST_PASSWORD = 'alican2021'
+EMAIL_USE_TLS = True
+
+#Front
+FRONT_END_HOST = "http://localhost:3000"
