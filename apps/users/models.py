@@ -11,6 +11,7 @@ class UserManager(BaseUserManager):
             name = name,
             last_name = last_name,
             is_staff = is_staff,
+            is_active= False ,
             is_superuser = is_superuser,
             **extra_fields
         )
@@ -30,7 +31,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     name = models.CharField('Nombres', max_length = 255, blank = True, null = True)
     last_name = models.CharField('Apellidos', max_length = 255, blank = True, null = True)
     image = models.ImageField('Imagen de perfil', upload_to='perfil/', max_length=255, null=True, blank = True)
-    is_active = models.BooleanField(default = True)
+    is_active = models.BooleanField(default = False)
     is_staff = models.BooleanField(default = False)
     historical = HistoricalRecords()
     objects = UserManager()
