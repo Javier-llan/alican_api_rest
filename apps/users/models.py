@@ -1,11 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import BaseUserManager, AbstractBaseUser, PermissionsMixin
 from simple_history.models import HistoricalRecords
-from .funtions import code_generator
+
 class UserManager(BaseUserManager):
     def _create_user(self, username, email, name,last_name, password, is_staff, is_superuser, **extra_fields):
         #generamos codigo
-        user_code = code_generator()
+        
         user = self.model(
             username = username,
             email = email,
@@ -17,6 +17,7 @@ class UserManager(BaseUserManager):
             coderegister=user_code,
             **extra_fields
         )
+        
         user.set_password(password)
         user.save(using=self.db)
         return user
