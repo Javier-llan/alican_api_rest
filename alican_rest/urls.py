@@ -18,7 +18,7 @@ from django.urls import path, include
 from rest_framework import permissions
 
 from apps.users.views import Login
-from  apps.users.views import Logout
+from apps.users.views import Logout
 
 urlpatterns = [
     path('admin/', admin.site.urls),

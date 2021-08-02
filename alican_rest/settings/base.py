@@ -34,6 +34,7 @@ LOCAL_APPS = [
 
 THIRD_APPS = [
     'rest_framework',
+    'rest_framework_mongoengine',
     'rest_framework.authtoken',
     'simple_history',
 ]
