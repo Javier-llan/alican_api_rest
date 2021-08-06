@@ -25,4 +25,5 @@ urlpatterns = [
     path('usuario/', include('apps.users.api.urls')),
     path('logout/', Logout.as_view(), name='logout'),
     path('',Login.as_view(),name='login'),
+    path('product/', include('apps.products.urls')),
 ]

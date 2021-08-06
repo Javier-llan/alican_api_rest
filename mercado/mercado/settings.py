@@ -91,4 +91,4 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {'mercado.pipelines.mongoDB_pipeline':300}
 MONGO_URI = 'mongodb://localhost:27017'
 MONGO_DB = 'djongo_test'
-COLLECTION_NAME = 'producto_mercado'
+COLLECTION_NAME = 'products_products'

@@ -30,6 +30,7 @@ BASE_APPS = [
 
 LOCAL_APPS = [
     'apps.users',
+    'apps.products',
 ]
 
 THIRD_APPS = [
@@ -74,6 +75,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'alican_rest.wsgi.application'
 
