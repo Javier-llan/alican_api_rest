@@ -19,6 +19,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 BASE_APPS = [
+    #'products_mercado.apps.ProductsMercadoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -26,6 +27,7 @@ BASE_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'productMercado',
 ]
 
 LOCAL_APPS = [
