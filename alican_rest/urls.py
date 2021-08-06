@@ -23,7 +23,7 @@ from apps.users.views import Logout
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('usuario/', include('apps.users.api.urls')),
-    path('product/', include('productMercado.urls')),
     path('logout/', Logout.as_view(), name='logout'),
     path('',Login.as_view(),name='login'),
+    path('product/', include('apps.products.urls')),
 ]
