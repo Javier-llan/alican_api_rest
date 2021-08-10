@@ -29,12 +29,13 @@ class MercadoLibreCrawler(CrawlSpider):
         item = ItemLoader(MercadoItem(), response)
 
         # Utilizo Map Compose con funciones anonimas
-
+        item.add_xpath('id', '//span[@class="ui-pdp-color--BLACK ui-pdp-family--SEMIBOLD"]/text()')
         item.add_xpath('titulo', '//h1/text()', MapCompose(lambda i: i.replace('\n', ' ').replace('\r', ' ').strip()))
         item.add_xpath('descripcion', '//div[@class="ui-pdp-description"]/p/text()',
                        MapCompose(lambda i: i.replace('\n', ' ').replace('\r', ' ').strip()))
-
+        item.add_xpath('imagen', '//*[@id="root-app"]/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/span[1]/figure/img/@src')
         soup = BeautifulSoup(response.body)
+
         precio = soup.find(class_="price-tag-fraction")
         precio_completo = precio.text.replace('\n', ' ').replace('\r', ' ').replace(' ', '')  # texto de todos los hijos
         item.add_value('precio', precio_completo)
