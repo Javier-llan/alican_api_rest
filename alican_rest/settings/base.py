@@ -30,10 +30,12 @@ BASE_APPS = [
 
 LOCAL_APPS = [
     'apps.users',
+    'apps.products',
 ]
 
 THIRD_APPS = [
     'rest_framework',
+    'rest_framework_mongoengine',
     'rest_framework.authtoken',
     'simple_history',
 ]
@@ -73,6 +75,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'alican_rest.wsgi.application'
 
