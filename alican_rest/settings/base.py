@@ -30,12 +30,17 @@ BASE_APPS = [
 
 LOCAL_APPS = [
     'apps.users',
+    'apps.products',
 ]
 
 THIRD_APPS = [
     'rest_framework',
+    'rest_framework_mongoengine',
+    'rest_framework.authtoken',
     'simple_history',
 ]
+
+TOKEN_EXPIRED_AFTER_SECONDS = 10
 
 INSTALLED_APPS = BASE_APPS + LOCAL_APPS + THIRD_APPS
 
@@ -70,6 +75,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'alican_rest.wsgi.application'
 
@@ -123,3 +129,13 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'alicaninfoapp@gmail.com'
+EMAIL_HOST_PASSWORD = 'alican2021'
+EMAIL_USE_TLS = True
+
+#Front
+FRONT_END_HOST = "http://localhost:3000"
