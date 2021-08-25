@@ -15,7 +15,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+CRONJOBS  = [
+    ('55 23 */3 * *', 'django.core.management.call_command', ['scrapy crawl mercadoLibre']),
+]
 # Application definition
 
 BASE_APPS = [
@@ -38,6 +40,7 @@ THIRD_APPS = [
     'rest_framework_mongoengine',
     'rest_framework.authtoken',
     'simple_history',
+    'django_crontab',
 ]
 
 TOKEN_EXPIRED_AFTER_SECONDS = 10
