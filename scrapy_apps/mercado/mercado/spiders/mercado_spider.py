@@ -31,6 +31,10 @@ class MercadoLibreCrawler(CrawlSpider):
         id = soup.find(class_="ui-pdp-color--BLACK ui-pdp-family--SEMIBOLD")
         id_completo = id.text.replace('#', '')
         ml_item['id'] = id_completo
+        #codigo
+        ml_item['codigo'] = id_completo
+        #tienda
+        ml_item['tienda'] = 'Mercado Libre'
         #titulo
         titulo = soup.find(class_="ui-pdp-title")
         titulo_completo = titulo.text.replace('\n', ' ').replace('\r', ' ')

@@ -31,8 +31,12 @@ class PointCrawler(CrawlSpider):
         soup = BeautifulSoup(response.body)
         #identificador
         id = soup.find(class_="sku_wrapper")
-        id_completo = id.text.replace('PORT', '').replace('\n', ' ').replace('\r', ' ').replace('SKU: ', '')
+        id_completo = id.text.replace('PORT', '').replace('\n', ' ').replace('\r', ' ').replace('SKU: ', '').replace('PLAY', ' ')
         ap_item['id'] = id_completo
+        #codigo
+        ap_item['codigo'] = id_completo
+        #tienda
+        ap_item['tienda'] = 'Almacenes Point'
         #titulo
         ap_item['titulo'] = response.xpath('//h1[@class="product_title entry-title"]/text()').extract_first()
         #descripción

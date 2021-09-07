@@ -11,6 +11,8 @@ class MercadoItem(scrapy.Item):
     # name = scrapy.Field()
     #pass
     id = scrapy.Field()
+    codigo = scrapy.Field()
+    tienda = scrapy.Field()
     imagen = scrapy.Field()
     titulo = scrapy.Field()
     precio = scrapy.Field()

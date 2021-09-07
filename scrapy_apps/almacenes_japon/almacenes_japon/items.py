@@ -9,6 +9,8 @@ import scrapy
 class JaponItem(scrapy.Item):
     # define the fields for your item here like:
     id = scrapy.Field()
+    codigo = scrapy.Field()
+    tienda = scrapy.Field()
     imagen = scrapy.Field()
     titulo = scrapy.Field()
     precio = scrapy.Field()

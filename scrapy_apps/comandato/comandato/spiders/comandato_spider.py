@@ -28,6 +28,10 @@ class LaGangaCrawler(CrawlSpider):
         soup = BeautifulSoup(response.body)
         #identificador
         cm_item['id'] = response.xpath('//div[@class="skuReference"]/text()').extract_first()
+        #codigo
+        cm_item['codigo'] = response.xpath('//div[@class="skuReference"]/text()').extract_first()
+        #tienda
+        cm_item['tienda'] = 'Comandato'
         #titulo
         cm_item['titulo'] = response.xpath('/html/head/title/text()').extract_first()
         #descripcion
