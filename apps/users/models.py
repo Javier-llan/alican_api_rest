@@ -2,18 +2,22 @@ from django.db import models
 from django.contrib.auth.models import BaseUserManager, AbstractBaseUser, PermissionsMixin
 from simple_history.models import HistoricalRecords
 
-
 class UserManager(BaseUserManager):
     def _create_user(self, username, email, name,last_name, password, is_staff, is_superuser, **extra_fields):
+        #generamos codigo
+        
         user = self.model(
             username = username,
             email = email,
             name = name,
             last_name = last_name,
             is_staff = is_staff,
+            is_active= False ,
             is_superuser = is_superuser,
+            coderegister=user_code,
             **extra_fields
         )
+        
         user.set_password(password)
         user.save(using=self.db)
         return user
@@ -30,9 +34,10 @@ class User(AbstractBaseUser, PermissionsMixin):
     name = models.CharField('Nombres', max_length = 255, blank = True, null = True)
     last_name = models.CharField('Apellidos', max_length = 255, blank = True, null = True)
     image = models.ImageField('Imagen de perfil', upload_to='perfil/', max_length=255, null=True, blank = True)
-    is_active = models.BooleanField(default = True)
+    is_active = models.BooleanField(default = False)
     is_staff = models.BooleanField(default = False)
     historical = HistoricalRecords()
+    coderegister = models.CharField(max_length=8, blank=True)
     objects = UserManager()
 
     class Meta:
