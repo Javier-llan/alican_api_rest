@@ -27,4 +27,5 @@ urlpatterns = [
     path('logout/', Logout.as_view(), name='logout'),
     path('',Login.as_view(),name='login'),
     path('product/', include('apps.products.urls')),
+    path('mercadolibre/', include('apps.mercadoLibre.urls'))
 ]
