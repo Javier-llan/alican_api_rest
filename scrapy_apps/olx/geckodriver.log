@@ -1,0 +1,300 @@
+1630327577007	geckodriver	INFO	Listening on 127.0.0.1:53050
+1630327580110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilecc6hkN"
+1630327582193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilecc6hkN\\search.json.mozlz4", (void 0)))
+1630327589269	Marionette	INFO	Listening on port 53060
+1630327589825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: https://www.olx.com.ec/chunks/modern/desktop-vendors~main.olx.667886ce28717e6d12a8.js, line 19: Error: 3000ms timeout exceeded
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://www.olx.com.ec/sw.js for scope https://www.olx.com.ec/ threw an exception during script evaluation.
+1630327718041	Marionette	INFO	Stopped listening on port 53060
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 9044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1630327722968	geckodriver	INFO	Listening on 127.0.0.1:52386
+1630327726001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileUeSRxx"
+1630327727115	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileUeSRxx\\search.json.mozlz4", (void 0)))
+1630327733552	Marionette	INFO	Listening on port 62360
+1630327734024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: https://www.olx.com.ec/chunks/modern/desktop-vendors~main.olx.667886ce28717e6d12a8.js, line 19: Error: 3000ms timeout exceeded
+JavaScript error: https://www.olx.com.ec/ line 6 > injectedScript, line 45: TypeError: config_postbid[posicion] is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1630327835213	Marionette	INFO	Stopped listening on port 62360
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630327842463	geckodriver	INFO	Listening on 127.0.0.1:62535
+1630327845494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileQ7seWc"
+1630327846579	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileQ7seWc\\search.json.mozlz4", (void 0)))
+1630327852493	Marionette	INFO	Listening on port 62543
+1630327853011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630327966445	Marionette	INFO	Stopped listening on port 62543
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630327973410	geckodriver	INFO	Listening on 127.0.0.1:55653
+1630327976458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileYlmRfI"
+1630327977565	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileYlmRfI\\search.json.mozlz4", (void 0)))
+1630327983601	Marionette	INFO	Listening on port 55661
+1630327983973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.olx.com.ec/item/cpu-ryzen-5-iid-1105337869 line 6 > injectedScript, line 48: TypeError: config_postbid[posicion] is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.olx.com.ec/computadoras-laptops_c803 line 6 > injectedScript, line 45: TypeError: config_postbid[posicion] is undefined
+1630329393107	Marionette	INFO	Stopped listening on port 55661
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:289:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:155:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:289:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:155:48
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:289:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:155:48
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "stylesheets: fetch failed for https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css, using system principal instead."
+[Parent 12220, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+SourceActor threw an exception: Error: Failed to fetch https://www.olx.com.ec/computadoras-laptops_c803. Code 2147500036.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.olx.com.ec/computadoras-laptops_c803. Code 2147500036.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036."
+console.error: (new Error("Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Tried to send a 'getApplied' method reply on an already destroyed actor 'pagestyle'"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036."
+console.error: (new Error("Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Tried to send a 'getLayout' method reply on an already destroyed actor 'pagestyle'"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036."
+console.error: (new Error("Failed to fetch https://www.olx.com.ec/chunks/modern/desktop-listingMX~listingOld.olx.807e7d30ef4e0640b6c8.css. Code 2147500036.", "resource://devtools/shared/DevToolsUtils.js", 556))
+console.error: "Tried to send a 'getLayout' method reply on an already destroyed actor 'pagestyle'"
+console.error: "Tried to send a 'getLayout' method reply on an already destroyed actor 'pagestyle'"
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.olx.com.ec/computadoras-laptops_c803. Code 2147500036.
+1630348476316	geckodriver	INFO	Listening on 127.0.0.1:51219
+1630348479346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileYaMRwZ"
+1630348479827	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileYaMRwZ\\search.json.mozlz4", (void 0)))
+1630348482559	Marionette	INFO	Listening on port 55588
+1630348483031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: https://www.olx.com.ec/item/chevrolet-sail-ac-14-5p-4x2-tm-2017-iid-1105526124 line 6 > injectedScript, line 45: TypeError: config_postbid[posicion] is undefined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1630348896307	Marionette	INFO	Stopped listening on port 55588
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages willconsole.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1630348955154	Marionette	INFO	Stopped listening on port 50188
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry sync interrupted by shutdown
+leSMEiyJ\\search.json.mozlz4", (void 0)))
+1630348681344	Marionette	INFO	Listening on port 64885
+1630348681487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: https://www.olx.com.ec/chunks/modern/desktop-vendors~main.olx.667886ce28717e6d12a8.js, line 19: Error: 3000ms timeout exceeded
+JavaScript error: https://www.olx.com.ec/item/alucobond-gris-oscuro-gray-silver-4mm-iid-1103529918 line 6 > injectedScript, line 48: TypeError: config_postbid[posicion] is undefined
+1630348956024	Marionette	INFO	Stopped listening on port 64885
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1630348956912	Marionette	INFO	Stopped listening on port 52408
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush.js, line 1: NetworkError: WorkerGlobalScope.importScripts: Failed to load worker script at https://d2r1yp2w7bby2u.cloudfront.net/js/localforage.min.js (nsresult = 0x80004005)
+[Parent 3880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1630348959640	geckodriver	INFO	Listening on 127.0.0.1:58938
+1630348962692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilec92tL5"
+1630348963088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilec92tL5\\search.json.mozlz4", (void 0)))
+1630348965872	Marionette	INFO	Listening on port 61404
+1630348966372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://www.olx.com.ec/ line 6 > injectedScript, line 45: TypeError: config_postbid[posicion] is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.olx.com.ec/computadoras-laptops_c803 line 6 > injectedScript, line 48: TypeError: config_postbid[posicion] is undefined
+1630349162293	Marionette	INFO	Stopped listening on port 61404
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (N1630349162597	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofileSWO3bx\\search.json.mozlz4", (void 0)))
+1630349165556	Marionette	INFO	Listening on port 56164
+1630349165745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630350248078	Marionette	INFO	Stopped listening on port 56164
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 13996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1630351804526	geckodriver	INFO	Listening on 127.0.0.1:62068
+1630351807549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilesmqHJv"
+1630351808006	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jllan\\AppData\\Local\\Temp\\rust_mozprofilesmqHJv\\search.json.mozlz4", (void 0)))
+1630351811078	Marionette	INFO	Listening on port 57992
+1630351811265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.olx.com.ec/chunks/modern/desktop-FingerPrintWrapper.olx.c1decbf2391455922a04.js, line 8: WebGL context was lost.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://www.olx.com.ec/computadoras-laptops_c803 line 6 > injectedScript, line 45: TypeError: config_postbid[posicion] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630353846674	Marionette	INFO	Stopped listening on port 57992
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 17712, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
