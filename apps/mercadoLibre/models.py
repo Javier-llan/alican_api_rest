@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 from django.db import models
 
 class mercadoLibre(models.Model):
-
+    id= models.TextField(),
     titulo = models.TextField()
     descripcion = models.TextField()
     imagen = models.TextField()

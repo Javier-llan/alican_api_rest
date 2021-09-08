@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from apps.products.api.serializers import ProductListSerializer, ProductSerializer
 from apps.products.models import Products
+from apps.mercadoLibre.models import mercadoLibre
 from django.core.mail import send_mail
 import smtplib
 from alican_rest.settings import base
@@ -18,7 +19,8 @@ def product_api_view(request):
     if request.method == 'POST':
         # queryset
         param=request.data['params']
-        products = Products.objects.filter(titulo__contains=param).values('titulo', 'descripcion', 'precio', 'imagen')
+        productss = Products.objects.filter(titulo__contains=param).values('titulo', 'descripcion', 'precio', 'imagen')
+        products = mercadoLibre.objects.filter(id="432121700").values('id','titulo', 'descripcion', 'precio', 'imagen')
         #products = Products.objects.all().values('titulo', 'descripcion', 'precio', 'imagen')
 
         products_serializer = ProductListSerializer(products, many = True)

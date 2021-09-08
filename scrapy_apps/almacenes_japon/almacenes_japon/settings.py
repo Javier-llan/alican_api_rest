@@ -90,5 +90,5 @@ ROBOTSTXT_OBEY = True
 
 ITEM_PIPELINES = {'almacenes_japon.pipelines.mongoDB_pipeline':300}
 MONGO_URI = 'mongodb://localhost:27017'
-MONGO_DB = 'prueba'
+MONGO_DB = 'djongo_test'
 COLLECTION_NAME = 'almacenes_japon'
