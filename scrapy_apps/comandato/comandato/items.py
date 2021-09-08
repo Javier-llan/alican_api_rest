@@ -10,6 +10,8 @@ class ComandatoItem(scrapy.Item):
     # define the fields for your item here like:
     #pass
     id = scrapy.Field()
+    codigo = scrapy.Field()
+    tienda = scrapy.Field()
     imagen = scrapy.Field()
     titulo = scrapy.Field()
     fecha = scrapy.Field()
