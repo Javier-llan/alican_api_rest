@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from pymongo import MongoClient
 
 client = MongoClient('localhost')
-db = client['prueba']
+db = client['djongo_test']
 col = db['olx']
 driver = webdriver.Firefox()
 
