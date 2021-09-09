@@ -44,6 +44,8 @@ class mongoDB_pipeline:
             raise DropItem(f"Duplicate item found: {item!r}")
         else:
             mcDict['id'] = item['id']
+            mcDict['codigo'] = item['codigo']
+            mcDict['tienda'] = item['tienda']
             mcDict['titulo'] = item['titulo']
             mcDict['descripcion'] = item['descripcion']
             mcDict['precio'] = item['precio']

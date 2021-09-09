@@ -4,4 +4,4 @@ from apps.mercadoLibre.models import mercadoLibre
 class MercadoLibreSerializer(serializers.ModelSerializer):
     class Meta:
         model = mercadoLibre
-        fields =('id', 'titulo', 'descripcion', 'precio', 'imagen','link', 'fecha')
+        fields =('id', 'codigo', 'tienda', 'titulo', 'descripcion', 'precio', 'imagen','link', 'fecha')
