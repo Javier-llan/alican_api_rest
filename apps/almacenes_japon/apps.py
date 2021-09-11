@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class AlmacenesJaponConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'almacenes_japon'
+    name = 'apps.almacenes_japon'

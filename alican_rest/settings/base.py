@@ -13,25 +13,30 @@ SECRET_KEY = 'django-insecure-$vm+x5pi@*zz8e=gxv4o=0d^mi7h$62r)sz4db7=g5qdr*)2^2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 BASE_APPS = [
     'django.contrib.admin',
+    'corsheaders',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
+    
 ]
 
 LOCAL_APPS = [
     'apps.users',
     'apps.products',
     'apps.mercadoLibre',
+    'apps.almacenes_japon',
+    'apps.point',
+    'apps.comandato',
+
 ]
 
 THIRD_APPS = [
@@ -39,6 +44,7 @@ THIRD_APPS = [
     'rest_framework_mongoengine',
     'rest_framework.authtoken',
     'simple_history',
+    
 ]
 
 TOKEN_EXPIRED_AFTER_SECONDS = 10
@@ -47,6 +53,7 @@ INSTALLED_APPS = BASE_APPS + LOCAL_APPS + THIRD_APPS
 
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -54,8 +61,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
     'simple_history.middleware.HistoryRequestMiddleware',
 ]
 

@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.db import models
 
-class mercadoLibre(models.Model):
+class point(models.Model):
     id= models.TextField(),
     codigo= models.TextField(default='SOME STRING')
     titulo = models.TextField()
