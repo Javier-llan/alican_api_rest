@@ -36,6 +36,7 @@ LOCAL_APPS = [
     'apps.almacenes_japon',
     'apps.point',
     'apps.comandato',
+    'apps.like',
 
 ]
 

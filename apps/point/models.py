@@ -10,6 +10,6 @@ class point(models.Model):
     precio = models.TextField()
     link = models.CharField(max_length=250,default='SOME STRING')
     fecha = models.CharField(max_length=250,default='SOME STRING')
-
+    
     def __str__(self):
         return self.titulo
